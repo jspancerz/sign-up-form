@@ -1,4 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+
+*{
+    font-family: 'Gemunu Libre';
+}
+
 #background-image{
+    display: flex;
+    flex-direction: column;
     width: 700px;
     height: 1200px;
 }
+
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    color: whitesmoke;
+    font-size: x-large;
+    background-color:blue;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+form{
+    
+}
+
