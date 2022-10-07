@@ -1,34 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 
-
-*{
-    font-family: 'Gemunu Libre';
+* {
+    font-family: 'Gemunu Libre', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
 }
 
-#background-image{
+body {
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 1200px;
+    row-gap: 1rem;
+    background-image: url(images/sega.avif);
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    background-size: 50%;
+    background-color: hsl(199, 99%, 38%);
 }
 
-button{
+#header {
+    text-align: center;
+    align-self: flex-end;
+    border: 5px;
+    border-color: green;
+    border-style: solid;
+    font-size: x-large;
+    background-color: rgba(0, 0, 139, 0.503);
+    height: 400px;
+    width: 500px;
+
+}
+
+button {
     height: 50px;
     width: 250px;
     border-radius: 10px;
+    border: 3px;
     border-color: darkslategray;
-    color: whitesmoke;
+    border-style: solid;
     font-size: x-large;
-    background-color:blue;
+    background-color: rgb(0, 0, 112);
 }
 
-.form-group{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+#form-group {
+    text-align: center;
+    align-self: flex-end;
+    border: solid;
+    border-color: yellow;
+    border-width: 5px;
+    height: 450px;
+    width: 900px;
+    background-color: rgb(14, 14, 255);
 }
 
-form{
-    
+#footer {
+    align-self: center;
+    border: 5px;
+    border-style: solid;
+    border-color: coral;
+    height: 200px;
 }
 
+#attention {
+    color: orange;
+}
+
+#group-one {
+
+}
+
+#group-two {
+
+}
