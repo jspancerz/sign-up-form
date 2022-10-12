@@ -10,9 +10,12 @@
 }
 
 #top {
-    height: 33vh;
+    height: 30vh;
     width: 65vw;
     font-size: x-large;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 100px;
 }
 
 #bg-image {
@@ -33,8 +36,11 @@ body {
 }
 
 #attention {
+
+    background-color: whitesmoke;
     font-size: xx-large;
     color: orange;
+    padding-left: 90px;
 }
 
 #form-group {
@@ -42,11 +48,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    height: 33vh;
+    height: 30vh;
     width: 65vw;
     background-color: whitesmoke;
-    gap: 5rem;
-    
+    gap: 5rem;    
 }
 
 input {
@@ -59,7 +64,7 @@ input {
 
 #bottom {
     padding: 50px;
-    height: 33vh;
+    height: 30vh;
     width: 65vw;
     align-self: flex-end;
 }
@@ -71,4 +76,5 @@ button {
     font-size: x-large;
     background-color: rgb(3, 3, 226);
     color: orange;
+    margin-bottom: 50px;
 }
