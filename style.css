@@ -12,6 +12,10 @@
     background-color:#0A3156;
 }
 
+em{
+    color: red;
+}
+
 #top {
     color: azure;
     height: 30vh;
@@ -39,14 +43,14 @@ body {
 
 #attention {
     background-color:rgba(255, 255, 255, 0.796);
-    font-size: xx-large;
-    color: orange;
+    color: darkorange;
     padding: 75px;
     text-align: flex start;
-    padding-left: 330px;
+    padding-left: 290px;
     border-color: black;
     border-width: 2px;
     border-style: inset;
+    font-size: 75px;
 }
 
 #form-group {
@@ -60,19 +64,24 @@ body {
 }
 
 label{
-    color: orange;
+    color: darkorange;
 }
 
 input {
     margin: 12px;
-    background-color: whitesmoke;
+    background-color: azure;
     display: block;
-    width: 300px;
+    width: 325px;
     padding: 8px;
     margin-left: 50px;
+    font-size: large;
+    border: limegreen;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #bottom {
+    color: azure;
     padding: 50px;
     height: 30vh;
     width: 65vw;
@@ -85,18 +94,17 @@ button {
     border-radius: 15px;
     font-size: x-large;
     background-color:#0967B3;
-    color: orange;
     margin-bottom: 20px;
-    border: inset;
+    border: outset;
     border-color: black;
-    border-width: 2px;
+    border-width: 3px;
+    color: darkorange;
 }
 
 #transparent-section{
     color: azure;
     font-size: 110px;
     font-family: norse-bold;
-    text-align:center;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.692);
@@ -126,6 +134,18 @@ a{
     font-size: small;
 }
 
-:valid form{
-    border-color: green;
+input:focus{
+    border: dotted;
+    border-width: 4px;
+    border-color: limegreen;
+    outline:none;
+}
+
+button:hover{
+    color: limegreen;
+    border-color: azure;
+}
+
+#e_mail:invalid{
+    border-color: red;
 }
